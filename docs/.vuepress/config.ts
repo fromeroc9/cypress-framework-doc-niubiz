@@ -13,5 +13,5 @@ export default defineUserConfig({
     logo: '/images/logo-texto.png',
     sidebar: sidebar,
   }),
-  dest : "docs",
+  dest : "dist",
 })
