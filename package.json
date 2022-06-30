@@ -6,8 +6,8 @@
   "license": "ISC",
   "description": "",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.48"
