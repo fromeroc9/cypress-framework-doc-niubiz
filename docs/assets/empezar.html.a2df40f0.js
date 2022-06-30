@@ -1,4 +1,4 @@
-import{_ as e,o as n,c as s,d as a}from"./app.3e7bbb7a.js";const i={},r=a(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
+import{_ as e,o as n,c as s,d as a}from"./app.02cdf4c6.js";const i={},r=a(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
 <span class="token function">git</span> clone https://github.com/example/cypress-e2e-framework
 <span class="token comment"># access folder</span>
 <span class="token builtin class-name">cd</span> cypress-e2e-framework
