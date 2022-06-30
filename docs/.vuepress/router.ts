@@ -34,8 +34,5 @@ export let sidebar =
                 // { text: 'Probar la aplicación', link: '#abrir' },
             ]
         }
-    ],
-    '/empezar/' : [
-        ''
     ]
 }
