@@ -6,7 +6,7 @@
   "license": "ISC",
   "description": "",
   "scripts": {
-    "docs:dev": "vuepress dev src",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
