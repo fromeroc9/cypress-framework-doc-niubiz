@@ -8,7 +8,7 @@ export let sidebar =
                 'Overview',
                 'Empezar',
                 'Pruebas',
-                'Comandos',
+                'Actions',
             ],
         }
     ],
