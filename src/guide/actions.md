@@ -141,6 +141,56 @@ wait(1000)
 ```
 Construido con [.wait(time), .wait(alias)](https://docs.cypress.io/api/commands/wait)
 
+## getValue
+Permite obtener el valor del input
+
+**Sintaxis**
+```typescript
+export const getValue = (locator: string, xpath: boolean = false) => {
+    let action = (!xpath) ? cy.get(locator) : cy.xpath(locator);
+    return action.invoke('val');
+}
+```
+**Uso**
+```typescript
+//obtener valor de usuario y contraseña
+getValue('#username').then(response => {
+    cy.log(response) //Output: joe@example.com
+})
+
+getValue("//input[@id='username']", true).then(response => {
+    cy.log(response) //Output: joe@example.com
+})
+//Si debea guardar el valor en variable global se recomienda usar Model o Interface
+```
+Construido con [.invoke(functionName)](https://docs.cypress.io/api/commands/invoke)
+
+## getText
+Permite obtener el valor texto de cualquier elemento en el DOM
+
+**Sintaxis**
+```typescript
+export const getText = (locator: string, xpath: boolean = false) : any =>{
+    let action = (!xpath) ? cy.get(locator) : cy.xpath(locator);
+    return action.then(e => e.text() )
+}
+```
+**Uso**
+```typescript
+//obtener valor de usuario logeado
+getText('.account > span ').then(response => {
+    cy.log(response) //Output: Joe Doe
+})
+
+getText("//a[@class='account']//span", true).then(response => {
+    cy.log(response) //Output: Joe Doe
+})
+//Si debea guardar el valor en variable global se recomienda usar Model o Interface
+```
+Construido con [.then(callbackFn))](https://docs.cypress.io/api/commands/then)
+
+
+
 ## xframe
 Permite buscar el frame orden en el DOM valor por defecto 0
 
@@ -316,4 +366,4 @@ let _nombre = getData[0]['Nombre'];
 // Output
 John
 ```
-Construido con [.writeFile(filepath, contents)](https://docs.cypress.io/api/commands/writefile)
+Construido con [.fixture(filepath), .fixture(filepath, options)](https://docs.cypress.io/api/commands/fixture)
