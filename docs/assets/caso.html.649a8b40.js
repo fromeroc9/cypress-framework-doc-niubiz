@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-45ec6b1a","path":"/guide/caso.html","title":"Caso Real","lang":"es-ES","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"guide/caso.md"}');export{e as data};
