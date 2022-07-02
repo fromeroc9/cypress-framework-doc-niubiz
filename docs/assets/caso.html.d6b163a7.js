@@ -1,1 +1,0 @@
-import{_ as a,o as c,c as o,a as e,e as s}from"./app.1ffd052a.js";const r={},t=e("h1",{id:"caso-real",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#caso-real","aria-hidden":"true"},"#"),s(" Caso Real")],-1),_=[t];function n(d,l){return c(),o("div",null,_)}var h=a(r,[["render",n],["__file","caso.html.vue"]]);export{h as default};

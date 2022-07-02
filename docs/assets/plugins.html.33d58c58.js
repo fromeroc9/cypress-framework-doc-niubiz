@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as t,a as e,e as n}from"./app.1ffd052a.js";const r={},c=e("h1",{id:"plugins",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#plugins","aria-hidden":"true"},"#"),n(" Plugins")],-1),o=[c];function i(_,l){return s(),t("div",null,o)}var u=a(r,[["render",i],["__file","plugins.html.vue"]]);export{u as default};

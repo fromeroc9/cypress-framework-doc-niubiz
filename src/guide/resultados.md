@@ -40,7 +40,7 @@ Al ejecutar en cli podemos elegir que feature a ejecutar para esta prueba estamo
 
 ### Reporte
 
-Reporte generado despues de la ejecución CLI
+Reporte generado despues de la ejecución CLI [Demo](https://fromeroc9.github.io/cypress-framework-doc/reports/multiple-reporte/index.html)
 
 **Reporte General**
 
