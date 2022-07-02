@@ -15,5 +15,5 @@ export let sidebar =
             ],
         }
     ],
-    '/reports/' : []
+    '/reports/' : [],
 }
