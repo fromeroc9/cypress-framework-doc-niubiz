@@ -22,7 +22,9 @@ Prueba de Paralelización | Se puede hacer a través del servicio Cypress.io Das
 Prueba entre navegadores | Admite navegadores basados en Firefox y Chromium (Electron, Edge, Chrome). No es compatible con Safari. | Admite todos los principales navegadores, incluido Safari. |
 Documentación | Excelente | Excelente
 Soporte | Respaldado por Cypress.io más comunidad de código abierto. | Respaldado principalmente por la comunidad de código abierto. |
-Popularidad | En Aumento | Muy popular |
+Popularidad | En Aumento | Muy popular 
+Soporte Movil | Hibrida | Hibrida, Nativa, PWA
+Pruebas Movil | Ionic | Ionic, React Native, Xamarin, Native Script, Flutter, Klotin, Swift
 
 **Otras diferencias**
 
