@@ -22,33 +22,31 @@ Seleccionamos el feature a ejecutar.
 
 Al ejecutar en cli podemos elegir que feature a ejecutar para esta prueba estamos dejando ejecutar los dos feature.
 
-![Ejecución GUI](/images/resultados/cli1.png)
+![Ejecución CLI](/images/resultados/cli1.png)
 
-### Videos de ejecución
+## Reporte General
 
-#### Authentication.feature
+Reporte generado despues de la ejecución CLI [Demo](https://fromeroc9.github.io/cypress-framework-doc/reports/multiple-reporte/index.html)
+
+![Reporte 1](/images/resultados/reporte1.png)
+
+### Authentication.feature
+
+![Reporte 2](/images/resultados/reporte2.png)
+
+### TestApi.feature
+![Reporte 3](/images/resultados/reporte3.png)
+
+## Videos de Ejecución
+
+### Authentication.feature
 
 <video width="800" height="auto" controls>
   <source src="/images/videos/Authentication.feature.mp4" type="video/mp4">
 </video>
 
-#### TestApi.feature
+### TestApi.feature
 
 <video width="800" height="auto" controls>
   <source src="/images/videos/TestApi.feature.mp4" type="video/mp4">
 </video>
-
-### Reporte
-
-Reporte generado despues de la ejecución CLI [Demo](https://fromeroc9.github.io/cypress-framework-doc/reports/multiple-reporte/index.html)
-
-**Reporte General**
-
-![Reporte 1](/images/resultados/reporte1.png)
-
-**Reporte Authentication.feature**
-
-![Reporte 2](/images/resultados/reporte2.png)
-
-**TestApi.feature**
-![Reporte 3](/images/resultados/reporte3.png)

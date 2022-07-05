@@ -14,7 +14,7 @@ Antes de escribir codigo, es bueno conocer lo que se va automatizar, para este e
 
 ### 1. Creamos el flujo a probar
 
-Ubicación: `cypress/resources/fixtures`
+Ubicación: `cypress/resources/feature`
 
 ```ts
 //Authentication.feature
@@ -276,7 +276,7 @@ Feature: Authentication
 Ubicación: `cypress/e2e/steps`
 
 ```ts
-//AuthenticationStep.ts
+//TestApiStep.ts
 import { Given, When } from "@badeball/cypress-cucumber-preprocessor"
 
 Given('Quiero Publicar un nuevo posts {string}', (cp: number) => {
@@ -373,7 +373,7 @@ beforeEach(() => {
 Ubicación: `cypress/collections/model`
 
 ```ts
-//PostModel.ts
+//PostsModel.ts
 class PostsModel {
 
     private _url : string = '';

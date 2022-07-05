@@ -10,11 +10,14 @@ npm install
 ```
 
 ## Ejecución GUI
+
 Ejecución de pruebas a travez de una interfaz web
+
 ```bash
 # open Cypress App
 npm run cypress:open
 ```
+
 #### Launchpad
 ![Launchpad](/images/empezar/launchpad.png)
 
