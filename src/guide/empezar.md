@@ -2,9 +2,11 @@
 
 ```bash
 # clone project
-git clone https://github.com/example/cypress-e2e-framework
+<username> = Usuario que tenga acceso al repositorio 
+
+git clone https://<username>@bitbucket.org/VisaNet_TI/framework-cypress.git
 # access folder
-cd cypress-e2e-framework
+cd framework-cypress
 # install all dependencies from the root directory
 npm install
 ```
@@ -64,7 +66,7 @@ npm-run-all -s cypress:run report
 ```
 
 ## Estructura de Proyecto
-La estructura de carpeta está inspirada al `web-automation-framework` de Selenium. Aquellos QA de Tsoft que vieron el framework de selenium podran ver las similudes.
+La estructura de carpeta está inspirada al `framework-selenium` de Selenium.
 ``` 
 ┌─ cypress
 │  ├─ e2e
@@ -144,4 +146,3 @@ reports | Almacena los diferentes reportes configurado en el el framework
 runner | Encargado de almacenar los resultados de una de la ejecución cli
 screenshots | Guarda las captura de pantalla 
 video | Guarda los video de toda la ejecución de los feature
-

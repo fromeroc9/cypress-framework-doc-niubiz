@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/soluciones.png
 heroText:  
-tagline: framework e2e cypress
+tagline: Framework Cypress
 actions:
   - text: Introducción
     link: /guide/overview

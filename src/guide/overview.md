@@ -1,3 +1,4 @@
+# Visión General
 
 ## Introducción
 
@@ -5,7 +6,7 @@ Este proyecto abarca a la utilización del framework Cypress para las pruebas e2
 
 El propósito de crear esta la estructura de trabajo es apoyar a los QA cuando empiecen a automatizar, permitiendo la creaciones de scripts para brindar soluciones.
 
-El marco de demostración de Cypress IO creado sobre videos de Youtube para enseñar los conceptos básicos del marco a cualquier persona interesada en esta tecnología.
+El marco de demostración de Cypress IO creado para enseñar los conceptos básicos del marco a cualquier persona interesada en esta tecnología.
 
 ## Cypress vs Selenium
 
