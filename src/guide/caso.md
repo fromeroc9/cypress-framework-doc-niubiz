@@ -22,7 +22,7 @@
 
 ### 4. Reporte
 
-Report de la ejecución [Demo](https://fromeroc9.github.io/cypress-framework-doc/reports/multiple-reporte2/index.html)
+Report de la ejecución [Demo](https://fromeroc9.github.io/cypress-framework-doc-niubiz/reports/multiple-reporte2/index.html)
 
 ![Reporte Principal](/images/niubiz/reporte1.png)
 
