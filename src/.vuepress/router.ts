@@ -5,7 +5,8 @@ export let sidebar =
             text: 'Manual de Usuario',
             collapsible: false,
             children: [
-                'Overview',
+                'overview.md',
+                'documentacion.md',
                 'Empezar',
                 'Pruebas',
                 'Resultados',
