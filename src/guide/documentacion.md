@@ -162,8 +162,9 @@ Durante todo el proceso de atención de automatización se cuenta con el soporte
 
 #### Datos del repositorio
 
-Nombre Repositorio:    test-automation
-Acceso al repositorio: TBD 
+Nombre Repositorio: framework-cypress
+
+Acceso al repositorio: https://bitbucket.org/VisaNet_TI/framework-cypress/src/master/
 
 #### Características del repositorio
 
