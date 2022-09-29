@@ -40,8 +40,8 @@ El framework técnico en combinación con diferentes herramientas de automatizac
 
 |                  | Herramientas definidas      |
 |------------------|-----------------------------|
-| Aplicaciones Web | Selenium / WebDriver / JAVA |
-| Servicios | Selenium / HttpClient / Java |
+| Aplicaciones Web | Cypress / Typescript |
+| Servicios | Cypress / Typescript |
 
 ### Framework Técnico
 
@@ -124,6 +124,7 @@ Las actividades a realizar dentro de esta etapa son las siguientes:
 
 - Identificar los candidatos que sean viables funcionalmente/técnicamente.
 - Asignar un nivel de complejidad
+- Asignar puntuación a los candidatos viables en base a los siguientes criterios: Valor de Caso de Prueba, Riesgo de Negocio, Costro Eficiencia e Historial.
 
 **Herramientas usadas**
 
@@ -170,8 +171,9 @@ Acceso al repositorio: https://bitbucket.org/VisaNet_TI/framework-cypress/src/ma
 
 Existe solo un repositorio en donde almacena un proyecto java con la estructura maven. Este proyecto incluye escenarios para los diferentes aplicativos de Niubiz.
 
-1. Accesos: Escritura y Lectura:  Desarrolladores de test
-2. Estrategia de Ramas:
+1. **master:** Branch contenedor de las versiones finales de los flujos automatizados.
+2. **qa:** Branch contenedor de las versiones verificadas por el equipo de calidad.
+3. **developer:** Branch contenedor de las versiones desarrollados por el equipo de automatización.
 
 ![Estrategias de Ramas](/images/documentacion/estrategias.png)
 
@@ -181,10 +183,9 @@ Para el adecuado control del repositorio y el mantenimiento de los scripts, se h
 
 1. Al llegar un nuevo proyecto, solicitud a demanda de automatización de prueba de un aplicativo o mantenimiento de scripts, se deberá crear una rama con el nombre del proyecto o aplicativo.
 2. Los automatizadores descargan la versión del master a su local. 
-3. Los automatizadores desarrollan los nuevos scripts en la nueva rama. Realizan las pruebas correspondientes y realizan un push dentro de la nueva rama.
-4. Los automatizadores realizan un pull request de la nueva rama a la rama master.
-5. Se realiza una revisión de pares al código que se quiere subir al master.
-6. Se aprueba el pull request y la rama master tiene la versión actualizada.
-7. Al finalizar el desarrollo de los nuevos scripts, se elimina la rama creada.
+3. Los automatizadores desarrollan los nuevos scripts en la nueva rama developer. Realizan las pruebas correspondientes y realizan un push dentro de la misma rama.
+4. Se realiza una revisión de pares al código que se quiere subir a la rama qa.
+6. Se aprueba el desarrollo se sube el código a la rama qa.
+7. Se aprueba el pull request para que la rama master tenga la versión actualizada.
 
 ![Dinamica de Trabajo](/images/documentacion/dinamica_trabajo.png)
